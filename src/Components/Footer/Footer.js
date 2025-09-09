@@ -49,7 +49,7 @@ export default function Footer() {
         <div className={styles.footerCol}>
           <div className={styles.footerTitle}>Contact</div>
           <div className={styles.footerContactList}>
-            <a href="tel:+919908473500" className={styles.footerContactItem}><FaPhoneAlt /> +91 99999 99999</a>
+            <a href="tel:+919908473500" className={styles.footerContactItem}><FaPhoneAlt /> +91 99084 73500</a>
             <a href="https://wa.me/919908473500?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener" className={styles.footerContactItem}><FaWhatsapp /> WhatsApp</a>
             <a href="mailto:info@karthikaanati.com?subject=Enquiry%20from%20Website&body=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services." className={styles.footerContactItem}><FaEnvelope /> info@karthikaanati.com</a>
           </div>
