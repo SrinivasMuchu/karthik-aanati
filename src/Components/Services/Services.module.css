@@ -1,0 +1,76 @@
+
+/* Services.module.css */
+.servicesSection {
+	width: 100%;
+	padding: 3rem 1rem;
+	background: #f6f9f4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.servicesHeading {
+	font-size: 2rem;
+	color: #256029;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+.servicesSubheading {
+	font-size: 1.1rem;
+	color: #3a5d2c;
+	margin-bottom: 2.5rem;
+	text-align: center;
+	font-weight: 500;
+}
+.servicesGrid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: center;
+	width: 100%;
+	max-width: 1100px;
+}
+.serviceBox {
+	background: #fff;
+	border-radius: 14px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+	padding: 2rem 1.5rem 1.5rem 1.5rem;
+	flex: 1 1 220px;
+	min-width: 220px;
+	max-width: 270px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: box-shadow 0.2s, transform 0.2s;
+}
+.serviceBox:hover {
+	box-shadow: 0 4px 16px rgba(76,142,44,0.13);
+	transform: translateY(-4px) scale(1.03);
+}
+.serviceIcon {
+	font-size: 2.5rem;
+	color: #4b8e2c;
+	margin-bottom: 1.1rem;
+}
+.serviceTitle {
+	font-size: 1.15rem;
+	font-weight: 600;
+	color: #256029;
+	margin-bottom: 0.7rem;
+	text-align: center;
+}
+.serviceDesc {
+	font-size: 0.98rem;
+	color: #3a5d2c;
+	text-align: center;
+}
+@media (max-width: 900px) {
+	.servicesGrid {
+		gap: 1.2rem;
+	}
+	.serviceBox {
+		padding: 1.2rem 0.7rem 1rem 0.7rem;
+		min-width: 160px;
+		max-width: 100%;
+	}
+}
