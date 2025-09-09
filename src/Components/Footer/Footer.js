@@ -59,7 +59,7 @@ export default function Footer() {
           <form className={styles.footerForm} onSubmit={sendEmail}>
   <input className={styles.footerInput} name="name" type="text" placeholder="Your Name" required />
   <input className={styles.footerInput} name="phone" type="tel" placeholder="Your Phone Number" required />
-  <input className={styles.footerInput} name="email" type="email" placeholder="Your Email" required />
+  <input className={styles.footerInput} name="email" type="email" placeholder="Your Email" />
   <textarea className={styles.footerTextarea} name="message" placeholder="Your Message" rows={3} required />
   <button className={styles.footerButton} type="submit">Send</button>
 </form>
